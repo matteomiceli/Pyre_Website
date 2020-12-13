@@ -1,0 +1,22 @@
+/* HOMEPAGE */
+
+body{
+    margin: 0px;
+    background-color: #242424;
+    color: white;
+}
+
+.logo{
+    height: 75px;
+    padding: 0 10px 0 0;
+}
+
+header{
+    display: flex;
+
+}
+
+.heroBanner {
+    background-color: #242424;
+    padding: 800px;
+}
