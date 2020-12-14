@@ -1,9 +1,16 @@
+/* possible colour  */
+
 /* HOMEPAGE */
 
 body{
     margin: 0px;
-    background-color: #242424;
+    background-color: #1f241c;
     color: white;
+}
+
+h1{
+    font-style:italic;
+    padding: 20px;
 }
 
 .logo{
@@ -13,10 +20,9 @@ body{
 
 header{
     display: flex;
-
+    justify-content: center;
 }
 
-.heroBanner {
+.heroBanner{
     background-color: #242424;
-    padding: 800px;
 }
