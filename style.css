@@ -63,7 +63,7 @@ header{
     margin-left: 30px;
     font-size: 18px;
     cursor: pointer;
-    border-bottom: 4px solid #b67c00
+    border-bottom: 4px solid #b67c00;
 }
 
 p{
@@ -73,11 +73,17 @@ p{
 
 .pyre-map-container{    
     display: flex;
-    margin: 180px 0;
+    margin: 150px 0;
+    justify-content: center;
 }
 
 .pyre-map{
-    max-width: 932px; /* 1112 max width */
+    width: 100%;
+    margin: 5px;
     padding:10px 20px 10px 0;
-    border: 4px solid white;
+    border: 8px inset white;
+}
+
+area{
+    cursor:pointer;
 }
