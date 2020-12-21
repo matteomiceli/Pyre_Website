@@ -71,14 +71,26 @@ p{
     font-size: 18px;
 }
 
+footer{
+    display: flex;
+    background-color: #161b16;
+    background-image: url("./images/WorldMapDark_Empty_opacity10.svg");
+    background-repeat: no-repeat;
+    background-size: 150rem;
+    background-position: right;
+    height: 120px;
+    border-top: 2px solid #6a706a;
+    align-items: center;
+}
+
 .pyre-map-container{    
     display: flex;
-    margin: 150px 0;
+    margin: 140px 30px;
     justify-content: center;
 }
 
 .pyre-map{
-    width: 100%;
+    max-width: 100%;
     margin: 5px;
     padding:10px 20px 10px 0;
     border: 8px inset white;
