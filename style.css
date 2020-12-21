@@ -66,6 +66,12 @@ header{
     border-bottom: 4px solid #b67c00;
 }
 
+h3{
+    font-family: 'Metamorphous', cursive;
+    color: #b67c00;
+    font-size: 1.3em;
+}
+
 p{
     font-family: 'Overlock', cursive;
     font-size: 18px;
@@ -83,9 +89,10 @@ footer{
     align-items: center;
 }
 
+/* Map Section */
 .pyre-map-container{    
     display: flex;
-    margin: 140px 30px;
+    margin: 140px 10px;
     justify-content: center;
 }
 
@@ -93,10 +100,47 @@ footer{
     max-width: 100%;
     margin: 5px;
     padding:10px 20px 10px 0;
-    border: 8px inset white;
+    /* border: 8px inset white; */
 }
 
 area{
     cursor:pointer;
 }
 
+/* Popup and Overlay */
+
+.popup-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,.5);
+    visibility: hidden;
+}
+
+.overlay-active{
+    visibility: visible;
+}
+
+.popup{
+    background-color: #242424;
+    color: white;
+    width: 30%;
+    height: auto;
+    padding: 5px 45px 50px 45px;
+    border-radius: 2%;
+    border: 1px;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#close-btn{
+    font-family: sans-serif;
+    text-align: right;
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+}
