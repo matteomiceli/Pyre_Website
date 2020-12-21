@@ -18,7 +18,7 @@ body{
 header{
     display: flex;
     background-color: #161b16;
-    background-image: url("./images/WorldMapDark_Empty_opacity10.svg");
+    background-image: url("./images/WorldMapDark_Empty_opacity10.png");
     background-repeat: no-repeat;
     background-size: 175rem;
     background-position: center;
@@ -80,7 +80,7 @@ p{
 footer{
     display: flex;
     background-color: #161b16;
-    background-image: url("./images/WorldMapDark_Empty_opacity10.svg");
+    background-image: url("./images/WorldMapDark_Empty_opacity10.png");
     background-repeat: no-repeat;
     background-size: 150rem;
     background-position: right;
