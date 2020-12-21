@@ -144,3 +144,10 @@ area{
     color: rgb(180, 180, 180);
     cursor: pointer;
 }
+
+#close-btn:hover{
+    font-family: sans-serif;
+    text-align: right;
+    color: rgb(129, 129, 129);
+    cursor: pointer;
+}
