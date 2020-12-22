@@ -2,17 +2,16 @@
 
 /* HOMEPAGE */
 
-
-.wrapper{
-    margin-right: auto; 
-    margin-left:  auto; 
-    max-width: 1140px;
-}
-
 body{
     margin: 0px;
     background-color: #161616;
     color: white;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 40px;
 }
 
 header{
@@ -93,12 +92,11 @@ footer{
 .pyre-map-container{    
     display: flex;
     margin: 140px 10px;
-    justify-content: center;
+    justify-content: left;
 }
 
 .pyre-map{
     max-width: 100%;
-    margin: 5px;
     padding:10px 20px 10px 0;
     /* border: 8px inset white; */
 }
@@ -107,8 +105,65 @@ area{
     cursor:pointer;
 }
 
-/* Popup and Overlay */
+/* Sidebar */
+.sidebar-container{
+    background-color: #222222;
+    padding: 40% 30px 100px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
+.sidebar-content{
+    
+}
+
+.close-btn{
+    font-family: sans-serif;
+    text-align: right;
+    color: rgb(160, 160, 160);
+    cursor: pointer;
+    margin: 0 -10px 0 0;
+    font-size: 1.6em;
+}
+
+.close-btn:hover{
+    font-family: sans-serif;
+    text-align: right;
+    color: white;
+    cursor: pointer;
+} 
+
+.placeholder{
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+    .popup{
+        width: 40%;
+    }
+} 
+
+
+@media only screen and (max-width: 1000px) {
+    .popup{
+        width: 60%;
+    }
+} 
+
+
+@media only screen and (max-width: 600px) {
+    .popup{
+        width: 70%;
+    }
+} 
+
+
+
+
+
+/* Popup and Overlay
 .popup-overlay{
     display: flex;
     justify-content: center;
@@ -127,7 +182,7 @@ area{
 }
 
 .popup{
-    background-color: #242424;
+    background-color: #222222;
     color: white;
     width: 30%;
     height: auto;
@@ -151,24 +206,4 @@ area{
     text-align: right;
     color: rgb(129, 129, 129);
     cursor: pointer;
-}
-
-@media only screen and (max-width: 1500px) {
-    .popup{
-        width: 40%;
-    }
-} 
-
-
-@media only screen and (max-width: 1000px) {
-    .popup{
-        width: 60%;
-    }
-} 
-
-
-@media only screen and (max-width: 600px) {
-    .popup{
-        width: 70%;
-    }
-} 
+} */
