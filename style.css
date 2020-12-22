@@ -132,8 +132,7 @@ area{
     width: 30%;
     height: auto;
     padding: 5px 45px 50px 45px;
-    border-radius: 2%;
-    border: 1px;
+    border-radius: 15px;
     border-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -143,6 +142,8 @@ area{
     text-align: right;
     color: rgb(180, 180, 180);
     cursor: pointer;
+    margin: 10px -25px 0 0;
+    font-size: 1.4em;
 }
 
 #close-btn:hover{
@@ -151,3 +152,23 @@ area{
     color: rgb(129, 129, 129);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1500px) {
+    .popup{
+        width: 40%;
+    }
+} 
+
+
+@media only screen and (max-width: 1000px) {
+    .popup{
+        width: 60%;
+    }
+} 
+
+
+@media only screen and (max-width: 600px) {
+    .popup{
+        width: 70%;
+    }
+} 
