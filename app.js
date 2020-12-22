@@ -4,32 +4,31 @@ const faneArea = document.querySelector('#fane');
 // PAGE ELEMENTS
 const popup = document.querySelector('.popup-overlay');
 const closeBtn = document.querySelector('.close-btn');
-const sidebar = document.querySelector('.sidebar-content');
-
-
-
+const sidebar = document.querySelector('sidebar-container');
+const sidebarContent = document.querySelector('.sidebar-content');
+const zoomIn = document.querySelector('.zoom-in');
+const zoomOut = document.querySelector('.zoom-out');
+const pyreMap = document.querySelector('.pyre-map');
 
 
 faneArea.addEventListener('click', () => {
     clear();
-    // createClose(sidebar);
 
     const faneHeader = document.createElement('h3');
     faneHeader.innerHTML = 'Fane'
-    sidebar.appendChild(faneHeader);
+    sidebarContent.appendChild(faneHeader);
     
     const faneContent = document.createElement('p');
     faneContent.innerHTML = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
     tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis 
     convallis convallis tellus id.`;
-    sidebar.appendChild(faneContent);
+    sidebarContent.appendChild(faneContent);
 });
 
 
-
-
-
-
+zoomIn.addEventListener('click', () => {
+    zoomIn.style.width('50%');
+});
 
 
 closeBtn.addEventListener('click', () => {
@@ -37,20 +36,13 @@ closeBtn.addEventListener('click', () => {
     const placeholder = document.createElement('p');
     placeholder.innerHTML = '<em>Click a place on the map to begin exploring Pyre!</em>'
     placeholder.classList.add('placeholder');
-    sidebar.appendChild(placeholder);
+    sidebarContent.appendChild(placeholder);
 });
 
-// Generates close button
-const createClose = (parentElement) => {
-    const closeX = document.createElement('h4');
-    closeX.innerHTML = '✕';
-    closeX.classList.add('close-btn');
-    parentElement.appendChild(closeX);
-    console.log('hmm')
-}
 
+// Clears sidebar
 const clear = () => {
-    sidebar.innerHTML = '';
+    sidebarContent.innerHTML = '';
 }
 
 const popupActive = () => {
