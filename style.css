@@ -8,7 +8,7 @@ body{
     color: white;
 }
 
-.wrapper{
+.wrapper-home{
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 20px;
@@ -33,11 +33,11 @@ header{
     margin-left:  auto; 
     width: 1180px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .title{
-    margin:0 20px;
+    margin:0;
     font-family: 'IM Fell English', serif;
     font-size: 80px;
     font-style:italic;
@@ -45,14 +45,15 @@ header{
 }
 
 .nav-menu{
-    display:flex;
-    margin: 0 20px;
+    display: flex;
+    padding: 0;
 }
 
 .nav-item{
     list-style: none;
     font-family: 'Metamorphous', cursive;
-    margin-left: 30px;
+    margin: 0 70px;
+    padding: 10px 0 0 0;
     font-size: 18px;
     border-bottom: 4px solid transparent;
 }
@@ -60,10 +61,21 @@ header{
 .nav-item:hover{
     list-style: none;
     font-family: 'Metamorphous', cursive;
-    margin-left: 30px;
+    margin: 0 70px;
     font-size: 18px;
     cursor: pointer;
     border-bottom: 4px solid #b67c00;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+    }
+    
+
+li a{
+text-decoration: none;
+color: white;
 }
 
 h3{
@@ -218,14 +230,8 @@ area{
     color: white;
     width: 30%;
     height: auto;
-<<<<<<< HEAD
-    padding: 5px 30px 50px 30px;
-    border-radius: 2%;
-    border: 1px;
-=======
     padding: 5px 45px 50px 45px;
     border-radius: 15px;
->>>>>>> 8ce152c6cf5eddfc4828a48aadcac7ee6e1e7f44
     border-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
