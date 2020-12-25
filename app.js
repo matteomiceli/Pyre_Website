@@ -25,7 +25,6 @@ faneArea.addEventListener('click', () => {
     sidebarContent.appendChild(faneContent);
 });
 
-
 zoomIn.addEventListener('click', () => {
     zoomIn.style.width('50%');
 });
