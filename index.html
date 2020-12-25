@@ -16,15 +16,17 @@
 <body>
   <header>
     <div class="header-content">
-      <h1 class="title">P<u>yr</u>e</h1>
-      <ul class="nav-menu">
-        <li class="nav-item">History</li>
-        <li class="nav-item">Explore</li>
-      </ul>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="history.html">History</a></li>
+        </ul>
+        <h1 class="title"><a href="index.html">P<u>yr</u>e</a></h1>
+        <ul class="nav-menu">
+            <li class="nav-item">Explore</li>
+        </ul>
     </div>
   </header> 
 
-  <main class="wrapper">
+  <main class="wrapper-home">
     <!-- Map element -->
     <div class="pyre-map-container">
       <div class="img-container">
@@ -56,13 +58,13 @@
           <area target="" id="demlinSea" alt="demlinSea" coords="804,540,560,745,609,814,847,592" shape="poly">
         </map>
       </div>
-      <!-- Zoom and minimize -->
-      <div class="zoom-container">
+
+    <!-- Zoom and minimize -->
+      <!-- <div class="zoom-container">
         <h4 class="zoom-in">+</h4>
         <h4 class="zoom-out">–</h4>
-      </div>
+      </div> -->
     </div>
-    
     <!-- Side Panel -->
     <div class="sidebar-container"> 
       <h4 class="close-btn">✕</h4>
@@ -76,6 +78,7 @@
 
   </footer>
 <script src="app.js"></script>
+<!-- Scaling map library -->
 <script src="imageMapResizer.min.js"></script>
 <script>imageMapResize();</script>
 </body>
