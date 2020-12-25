@@ -11,6 +11,20 @@ const zoomOut = document.querySelector('.zoom-out');
 const pyreMap = document.querySelector('.pyre-map');
 
 
+//
+
+
+//Logic
+closeBtn.addEventListener('click', () => {
+    clear();
+    const placeholder = document.createElement('p');
+    placeholder.innerHTML = '<em>Click a place on the map to begin exploring Pyre!</em>'
+    placeholder.classList.add('placeholder');
+    sidebarContent.appendChild(placeholder);
+});
+
+
+//Clickable Map Zones
 faneArea.addEventListener('click', () => {
     clear();
 
@@ -26,25 +40,12 @@ faneArea.addEventListener('click', () => {
 });
 
 
-zoomIn.addEventListener('click', () => {
-    zoomIn.style.width('50%');
-});
-
-
-closeBtn.addEventListener('click', () => {
-    clear();
-    const placeholder = document.createElement('p');
-    placeholder.innerHTML = '<em>Click a place on the map to begin exploring Pyre!</em>'
-    placeholder.classList.add('placeholder');
-    sidebarContent.appendChild(placeholder);
-});
-
-
 // Clears sidebar
 const clear = () => {
     sidebarContent.innerHTML = '';
 }
 
-const popupActive = () => {
-    popup.classList.add('overlay-active');
-}
+// For popup/modal
+// const popupActive = () => {
+//     popup.classList.add('overlay-active');
+// }
