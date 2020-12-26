@@ -84,6 +84,12 @@ h3{
     font-size: 1.3em;
 }
 
+h4{
+    font-family: 'Metamorphous', cursive;
+    color: white;
+    font-size: .9em;
+}
+
 p{
     font-family: 'Overlock', cursive;
     font-size: 18px;
