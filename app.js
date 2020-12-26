@@ -33,10 +33,10 @@ const placesInfo = [
         description: `While still technically a colony of the Empire, Trig has 
         been forgotten due to its location in the far north and enjoys relative 
         autonomy as a result. The Orcs of Trig live in open opposition to the 
-        Empire, raiding the Plains tribes to the south nearly as much as they war
-         with other Orc colonies. Its leaders have been traditionally very extreme
-          in their separatist beliefs, seeking to take back their old lands that 
-          were stolen by the Empire.`
+        Empire, raiding the Plains tribes to the south nearly as much as they clash
+        with the other Orc colonies. Trig's leaders have been traditionally very extreme
+        in their separatist beliefs, seeking to take back old lands that 
+        were stolen by the Empire.`
     },
     {
         i: 2,
