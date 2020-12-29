@@ -70,12 +70,12 @@ header{
 h1 a{
     text-decoration: none;
     color: white;
-    }
+}
     
 
 li a{
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 }
 
 h3{
@@ -88,13 +88,13 @@ h3{
 h4{
     font-family: 'Metamorphous', cursive;
     color: white;
-    font-size: 1em;
-    margin-top: 10px;
+    font-size: 1.1em;
+    margin-top: 12px;
 }
 
 p{
-    font-family: 'Overlock', cursive;
-    font-size: 18px;
+    font-family:'Overlock', sans-serif;
+    font-size: 1.3em;
 }
 
 footer{
@@ -164,10 +164,6 @@ area{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.sidebar-content{
-  
-}
-
 .close-btn{
     font-family: sans-serif;
     text-align: right;
@@ -185,7 +181,7 @@ area{
 } 
 
 .placeholder{
-    padding-top: 40%;
+    padding-top: 60%;
     text-align: center;
 }
 
