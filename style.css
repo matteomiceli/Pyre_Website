@@ -22,7 +22,7 @@ header{
     background-repeat: no-repeat;
     background-size: 175rem;
     background-position: center;
-    height: 180px;
+    height: 150px;
     border-bottom: 2px solid #6a706a;
     align-items: center;
 }
@@ -81,7 +81,7 @@ li a{
 h3{
     font-family: 'Metamorphous', cursive;
     color: #b67c00;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 5px;
 }
 
@@ -94,7 +94,7 @@ h4{
 
 p{
     font-family:'Overlock', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 footer{
@@ -104,7 +104,7 @@ footer{
     background-repeat: no-repeat;
     background-size: 150rem;
     background-position: right;
-    height: 120px;
+    height: 100px;
     border-top: 2px solid #6a706a;
     align-items: center;
 }
@@ -112,7 +112,7 @@ footer{
 /* Map Section */
 .pyre-map-container{    
     display: flex;
-    margin: 80px 0 80px 10px;
+    margin: 80px 0 80px 0px;
     justify-content: left;
     padding-right: 40px;
 }
@@ -160,7 +160,7 @@ area{
 /* Sidebar */
 .sidebar-container{
     background-color: #222222;
-    padding: 80px 30px 0 30px;
+    padding: 80px 25px 0 25px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -187,27 +187,139 @@ area{
 
 
 
-@media only screen and (max-width: 1500px) {
-    .popup{
-        width: 40%;
+@media only screen and (min-width: 1520px) {
+    .wrapper-home{
+        flex-direction: column;
+        grid-template-columns: 1fr 500px;
+    }
+} 
+
+@media only screen and (max-width: 1280px) {
+    .sidebar-container{
+        padding: 80px 15px 0 15px;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+
+    h3{
+        font-size: 1.1em;
+    }
+    
+    h4{
+        font-size: 0.9em;
     }
 } 
 
 
-@media only screen and (max-width: 1000px) {
-    .popup{
-        width: 60%;
+@media only screen and (max-width: 1080px) {
+    .sidebar-container{
+        padding: 60px 15px 0 15px;
+    }
+
+    .pyre-map-container{
+        padding-right:15px;
+    }
+
+    header{
+        height: 120px;
+        background-size: 125rem;
+    }
+
+    footer{
+        height: 75px;
+        background-size: 125rem;
     }
 } 
 
 
-@media only screen and (max-width: 600px) {
-    .popup{
-        width: 70%;
+@media only screen and (max-width: 900px) {
+    .wrapper-home{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+
+    header{
+        height: 100px;
+        background-size: 115rem;
+    }
+
+    .title{
+        font-size: 65px;
+    }
+
+    footer{
+        height: 75px;
+        background-size: 115rem;
+    }
+
+    .pyre-map-container{
+        margin:5px 0 5px 0;
+    }
+
+    .sidebar-container{
+        padding: 20px 50px 45px 50px;
+    }
+
+    .placeholder{
+        padding-top:0px;
     }
 } 
 
+@media only screen and (max-width: 720px) {
+    .sidebar-container{
+        padding: 15px 30px 45px 30px;
+    }
+    
+    .pyre-map-container{
+        margin:5px 0 5px 0;
+        padding-right: 10px;
+    }
+}
 
+@media only screen and (max-width: 550px) {
+    .sidebar-container{
+        padding: 15px 15px 45px 15px;
+    }
+
+    header{
+        height: 80px;
+        background-size: 70rem;
+    }
+
+    .title{
+        font-size: 45px;
+    }
+
+    .nav-item{
+        font-size: 15px;
+        margin: 0 40px;
+    }
+
+    .nav-item:hover{
+        font-size: 16px;
+        margin: 0 40px;
+    }
+
+    footer{
+        height: 75px;
+        background-size: 70rem;
+    }
+} 
+
+@media only screen and (max-width: 375px) {
+    .nav-item{
+        font-size: 15px;
+        margin: 0 25px;
+    }
+
+    .nav-item:hover{
+        font-size: 15px;
+        margin: 0 25px;
+    }
+}
 
 
 

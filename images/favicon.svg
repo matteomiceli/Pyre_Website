@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="16.825578"
+     inkscape:cx="15.070072"
      inkscape:cy="12.496585"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,13 +70,13 @@
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.264583"
-       x="0.78005552"
-       y="5.9483023"
+       x="0.88418412"
+       y="5.827723"
        id="text1445"><tspan
          sodipodi:role="line"
          id="tspan1443"
-         x="0.78005552"
-         y="5.9483023"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English';fill:#b67c00;fill-opacity:1;stroke-width:0.264583">P</tspan></text>
+         x="0.88418412"
+         y="5.827723"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English';fill:#b67c00;fill-opacity:1;stroke-width:0.264583">P</tspan></text>
   </g>
 </svg>
