@@ -29,8 +29,6 @@ const popup = document.querySelector('.popup-overlay');
 const closeBtn = document.querySelector('.close-btn');
 const sidebar = document.querySelector('sidebar-container');
 const sidebarContent = document.querySelector('.sidebar-content');
-const zoomIn = document.querySelector('.zoom-in');
-const zoomOut = document.querySelector('.zoom-out');
 const pyreMap = document.querySelector('.pyre-map');
 
 
@@ -305,11 +303,14 @@ const clear = () => {
     sidebarContent.innerHTML = '';
 }
 
+function showMapInfo (id) {
+    clear();
+    callInfo(placesInfo, id)
+}
 
 // Clickable Map Zones
 faneArea.addEventListener('click', () => {
-    clear();
-    callInfo(placesInfo, 0);
+    showMapInfo(0);
 });
 
 trigArea.addEventListener('click', () => {
