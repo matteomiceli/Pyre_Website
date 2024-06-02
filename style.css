@@ -2,296 +2,362 @@
 
 /* HOMEPAGE */
 
-body{
-    margin: 0px;
-    background-color: #161616;
-    color: white;
+body {
+  margin: 0px;
+  background-color: #161616;
+  color: white;
+  height: 100vh;
 }
 
-.wrapper-home{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 20px;
-    justify-content: center;
+h2 {
+  font-family: "IM Fell English", serif;
+  font-style: italic;
+  font-size: 2rem;
 }
 
-header{
-    display: flex;
-    background-color: #161b16;
-    background-image: url("./images/WorldMapDark_Empty_opacity10.png");
-    background-repeat: no-repeat;
-    background-size: 175rem;
-    background-position: center;
-    height: 150px;
-    border-bottom: 2px solid #6a706a;
-    align-items: center;
+/* Landing */
+#select-world-container {
+  margin: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#select-world-container h2 {
+  margin-bottom: 48px;
 }
 
-.header-content{
-    display: flex;
-    margin-right: auto; 
-    margin-left:  auto; 
-    width: 1180px;
-    align-items: center;
-    justify-content: center;
+#select-world {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.title{
-    margin:0;
-    font-family: 'IM Fell English', serif;
-    font-size: 80px;
-    font-style:italic;
-    font-weight:lighter;
+.map-select-container {
+  position: relative;
+  opacity: 75%;
+  border: 4px white double;
+  transition: all ease-in-out 200ms;
+}
+.map-select-container:last-child {
+  margin-left: 48px;
+}
+.map-select-container:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.map-select-container img {
+  width: 500px;
+  height: auto;
 }
 
-.nav-menu{
-    display: flex;
-    padding: 0;
+.select-nameplate {
+  color: white;
+  transition: all ease-in-out 200ms;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "IM Fell English", serif;
+  font-size: 3rem;
+  font-style: italic;
+  width: 100%;
+  height: 100%;
+  background: #0000004d; /* 30% opacity */
+}
+.select-nameplate:hover {
+  color: #b67c00;
 }
 
-.nav-item{
-    list-style: none;
-    font-family: 'Metamorphous', cursive;
-    margin: 0 70px;
-    padding: 10px 0 0 0;
-    font-size: 18px;
-    border-bottom: 4px solid transparent;
+/* end landing */
+
+.wrapper-home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+  justify-content: center;
+}
+.shanai-grid {
+  column-gap: 0;
 }
 
-.nav-item:hover{
-    list-style: none;
-    font-family: 'Metamorphous', cursive;
-    margin: 0 70px;
-    font-size: 18px;
-    cursor: pointer;
-    border-bottom: 4px solid #b67c00;
+header {
+  display: flex;
+  background-color: #161b16;
+  background-image: url("./images/WorldMapDark_Empty_opacity10.png");
+  background-repeat: no-repeat;
+  background-size: 175rem;
+  background-position: center;
+  height: 150px;
+  border-bottom: 2px solid #6a706a;
+  align-items: center;
 }
 
-h1 a{
-    text-decoration: none;
-    color: white;
-}
-    
-
-li a{
-    text-decoration: none;
-    color: white;
+.header-content {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1180px;
+  align-items: center;
+  justify-content: center;
 }
 
-h3{
-    font-family: 'Metamorphous', cursive;
-    color: #b67c00;
-    font-size: 1.3em;
-    margin-bottom: 5px;
+.title {
+  margin: 0;
+  font-family: "IM Fell English", serif;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
-h4{
-    font-family: 'Metamorphous', cursive;
-    color: white;
-    font-size: 1.1em;
-    margin-top: 12px;
+.nav-menu {
+  display: flex;
+  padding: 0;
 }
 
-p{
-    font-family:'Overlock', sans-serif;
-    font-size: 1.2em;
+.nav-item {
+  list-style: none;
+  font-family: "Metamorphous", cursive;
+  margin: 0 70px;
+  padding: 10px 0 0 0;
+  font-size: 18px;
+  border-bottom: 4px solid transparent;
 }
 
-footer{
-    display: flex;
-    background-color: #161b16;
-    background-image: url("./images/WorldMapDark_Empty_opacity10.png");
-    background-repeat: no-repeat;
-    background-size: 150rem;
-    background-position: right;
-    height: 100px;
-    border-top: 2px solid #6a706a;
-    align-items: center;
+.nav-item:hover {
+  list-style: none;
+  font-family: "Metamorphous", cursive;
+  margin: 0 70px;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 4px solid #b67c00;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  font-family: "Metamorphous", cursive;
+  color: #b67c00;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: "Metamorphous", cursive;
+  color: white;
+  font-size: 1.1em;
+  margin-top: 12px;
+}
+
+p {
+  font-family: "Overlock", sans-serif;
+  font-size: 1.2em;
+}
+
+footer {
+  display: flex;
+  background-color: #161b16;
+  background-image: url("./images/WorldMapDark_Empty_opacity10.png");
+  background-repeat: no-repeat;
+  background-size: 150rem;
+  background-position: right;
+  height: 100px;
+  border-top: 2px solid #6a706a;
+  align-items: center;
 }
 
 /* Map Section */
-.pyre-map-container{    
-    display: flex;
-    margin: 60px 0;
-    justify-content: left;
-    padding-right: 40px;
+.pyre-map-container {
+  display: flex;
+  margin: 60px 0;
+  justify-content: left;
+  padding-right: 40px;
 }
 
-.pyre-map{
-    width: 100%;
-    padding:10px 0 10px 0;
-    /* border: 8px inset white; */
+.pyre-map {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  /* border: 8px inset white; */
 }
 
-area{
-    cursor:pointer;
+.shanai-map-container {
+  display: flex;
+  justify-content: left;
+}
+.shanai-map {
+  width: 100%;
+  /* border: 8px inset white; */
+}
+
+area {
+  cursor: pointer;
 }
 
 /* Sidebar */
-.sidebar-container{
-    background-color: #222222;
-    padding: 80px 25px 0 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+.sidebar-container {
+  background-color: #222222;
+  padding: 80px 25px 0 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.close-btn{
-    font-family: sans-serif;
-    text-align: right;
-    color: rgb(160, 160, 160);
-    cursor: pointer;
-    margin: 0 0 0 0;
-    font-size: 1.6em;
+.close-btn {
+  font-family: sans-serif;
+  text-align: right;
+  color: rgb(160, 160, 160);
+  cursor: pointer;
+  margin: 0 0 0 0;
+  font-size: 1.6em;
 }
 
-.close-btn:hover{
-    font-family: sans-serif;
-    text-align: right;
-    color: white;
-    cursor: pointer;
-} 
-
-.placeholder{
-    padding-top: 60%;
-    text-align: center;
+.close-btn:hover {
+  font-family: sans-serif;
+  text-align: right;
+  color: white;
+  cursor: pointer;
 }
 
-
+.placeholder {
+  padding-top: 60%;
+  text-align: center;
+}
 
 @media only screen and (min-width: 1520px) {
-    .wrapper-home{
-        flex-direction: column;
-        grid-template-columns: 1fr 500px;
-    }
-} 
+  .wrapper-home {
+    flex-direction: column;
+    grid-template-columns: 1fr 500px;
+  }
+}
 
 @media only screen and (max-width: 1280px) {
-    .sidebar-container{
-        padding: 80px 15px 0 15px;
-    }
+  .sidebar-container {
+    padding: 80px 15px 0 15px;
+  }
 
-    p{
-        font-size: 1.1em;
-    }
+  p {
+    font-size: 1.1em;
+  }
 
-    h3{
-        font-size: 1.1em;
-    }
-    
-    h4{
-        font-size: 0.9em;
-    }
-} 
+  h3 {
+    font-size: 1.1em;
+  }
 
+  h4 {
+    font-size: 0.9em;
+  }
+}
 
 @media only screen and (max-width: 1080px) {
-    .sidebar-container{
-        padding: 60px 15px 0 15px;
-    }
+  .sidebar-container {
+    padding: 60px 15px 0 15px;
+  }
 
-    .pyre-map-container{
-        padding-right:15px;
-    }
+  .pyre-map-container {
+    padding-right: 15px;
+  }
 
-    header{
-        height: 120px;
-        background-size: 125rem;
-    }
+  header {
+    height: 120px;
+    background-size: 125rem;
+  }
 
-    footer{
-        height: 75px;
-        background-size: 125rem;
-    }
-} 
-
+  footer {
+    height: 75px;
+    background-size: 125rem;
+  }
+}
 
 @media only screen and (max-width: 900px) {
-    .wrapper-home{
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
-    }
+  .wrapper-home {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+  }
 
-    header{
-        height: 100px;
-        background-size: 115rem;
-    }
+  header {
+    height: 100px;
+    background-size: 115rem;
+  }
 
-    .title{
-        font-size: 65px;
-    }
+  .title {
+    font-size: 65px;
+  }
 
-    footer{
-        height: 75px;
-        background-size: 115rem;
-    }
+  footer {
+    height: 75px;
+    background-size: 115rem;
+  }
 
-    .pyre-map-container{
-        margin:5px 0 5px 0;
-    }
+  .pyre-map-container {
+    margin: 5px 0 5px 0;
+  }
 
-    .sidebar-container{
-        padding: 20px 50px 45px 50px;
-    }
+  .sidebar-container {
+    padding: 20px 50px 45px 50px;
+  }
 
-    .placeholder{
-        padding-top:0px;
-    }
-} 
+  .placeholder {
+    padding-top: 0px;
+  }
+}
 
 @media only screen and (max-width: 720px) {
-    .sidebar-container{
-        padding: 15px 30px 45px 30px;
-    }
-    
-    .pyre-map-container{
-        margin:5px 0 5px 0;
-        padding-right: 10px;
-    }
+  .sidebar-container {
+    padding: 15px 30px 45px 30px;
+  }
+
+  .pyre-map-container {
+    margin: 5px 0 5px 0;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    .sidebar-container{
-        padding: 15px 15px 45px 15px;
-    }
+  .sidebar-container {
+    padding: 15px 15px 45px 15px;
+  }
 
-    header{
-        height: 80px;
-        background-size: 70rem;
-    }
+  header {
+    height: 80px;
+    background-size: 70rem;
+  }
 
-    .title{
-        font-size: 45px;
-    }
+  .title {
+    font-size: 45px;
+  }
 
-    .nav-item{
-        font-size: 15px;
-        margin: 0 40px;
-    }
+  .nav-item {
+    font-size: 15px;
+    margin: 0 40px;
+  }
 
-    .nav-item:hover{
-        font-size: 16px;
-        margin: 0 40px;
-    }
+  .nav-item:hover {
+    font-size: 16px;
+    margin: 0 40px;
+  }
 
-    footer{
-        height: 75px;
-        background-size: 70rem;
-    }
-} 
-
-@media only screen and (max-width: 375px) {
-    .nav-item{
-        font-size: 15px;
-        margin: 0 25px;
-    }
-
-    .nav-item:hover{
-        font-size: 15px;
-        margin: 0 25px;
-    }
+  footer {
+    height: 75px;
+    background-size: 70rem;
+  }
 }
 
+@media only screen and (max-width: 375px) {
+  .nav-item {
+    font-size: 15px;
+    margin: 0 25px;
+  }
 
+  .nav-item:hover {
+    font-size: 15px;
+    margin: 0 25px;
+  }
+}
 
 /* Popup and Overlay
 .popup-overlay{

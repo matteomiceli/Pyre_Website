@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg885"
    width="1073.5239"
    height="897.2204"
    viewBox="0 0 1610.2858 1345.8306"
    sodipodi:docname="WorldMapDark_Places.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
    inkscape:export-filename="/home/matteo/Documents/Projects/Pyre Website/images/WorldMapDark_Places_Black(resize).png"
    inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata891">
     <rdf:RDF>
@@ -210,9 +210,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter2007"
-       x="-1.1783585e-06"
+       x="-1.1769377e-06"
        width="1.0000024"
-       y="-1.2224513e-06"
+       y="-1.2218709e-06"
        height="1.0000024">
       <feGaussianBlur
          inkscape:collect="always"
@@ -235,17 +235,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:window-width="1720"
+     inkscape:window-height="1412"
      id="namedview887"
      showgrid="false"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="724.52403"
-     inkscape:cy="424.38556"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:zoom="0.5"
+     inkscape:cx="336"
+     inkscape:cy="804"
+     inkscape:window-x="1720"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      inkscape:document-rotation="0"
      lock-margins="true"
      scale-x="1.5"
@@ -253,12 +253,15 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:snap-grids="true" />
+     inkscape:snap-grids="true"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Image 1"
-     style="display:none;mix-blend-mode:normal"
+     style="display:inline;mix-blend-mode:normal"
      transform="translate(-0.2540527,-7.7508096)">
     <rect
        style="fill:#161616;fill-opacity:1;stroke:none;stroke-width:0.619317"
@@ -317,45 +320,55 @@
     <text
        xml:space="preserve"
        id="text10"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;letter-spacing:0px;white-space:pre;shape-inside:url(#rect12);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;letter-spacing:0px;white-space:pre;shape-inside:url(#rect12);display:inline"
        transform="translate(-6.160505,-0.42303527)"><tspan
          x="106.23047"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';fill:#b67c00;fill-opacity:1">Karathuhm</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3700"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';fill:#b67c00"
+           id="tspan3698">Karathuhm</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text10-2"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect12-1);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect12-1);display:inline"
        transform="translate(126.00378,-36.890617)"
        x="67.262894"
        y="0"><tspan
          x="186.91797"
-         y="949.4359"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Mystra 
+         y="949.4359"
+         id="tspan3704"><tspan
+           style="font-style:italic;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3702">Mystra 
 </tspan></tspan><tspan
          x="180.625"
-         y="994.4359"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Academy</tspan></tspan></text>
+         y="994.4359"
+         id="tspan3708"><tspan
+           style="font-style:italic;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3706">Academy</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text870"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect872);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect872);display:inline"
        transform="translate(212.58802,99.940749)"
        x="67.262894"
        y="0"><tspan
          x="207.34277"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Duin</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3712"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3710">Duin</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text876"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect878);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect878);display:inline"
        transform="translate(300.94365,-170.21073)"
        x="67.262894"
        y="0"><tspan
          x="182.82617"
-         y="955.38477"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Anethyr</tspan></tspan></text>
+         y="956.06548"
+         id="tspan3716"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3714">Anethyr</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -411,21 +424,25 @@
     <text
        xml:space="preserve"
        id="text927"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;letter-spacing:0px;white-space:pre;shape-inside:url(#rect929);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;letter-spacing:0px;white-space:pre;shape-inside:url(#rect929);display:inline"
        transform="rotate(-56.506088,28.080605,711.71659)"><tspan
          x="106.23047"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';fill:#b67c00;fill-opacity:1">Baldurkeep</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3720"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';fill:#b67c00"
+           id="tspan3718">Baldurkeep</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text883"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect885);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect885);display:inline"
        transform="translate(343.83084,127.63187)"
        x="67.262894"
        y="0"><tspan
          x="188.99316"
-         y="952.69883"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Saltcliff</tspan></tspan></text>
+         y="953.32849"
+         id="tspan3724"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3722">Saltcliff</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -446,13 +463,15 @@
     <text
        xml:space="preserve"
        id="text891"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect893);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect893);display:inline"
        transform="translate(571.84144,-93.241307)"
        x="67.262894"
        y="0"><tspan
          x="168.03369"
-         y="953.59414"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Port Amyr</tspan></tspan></text>
+         y="954.24082"
+         id="tspan3728"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3726">Port Amyr</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle897"
@@ -462,13 +481,15 @@
     <text
        xml:space="preserve"
        id="text901"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect903);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect903);display:inline"
        transform="rotate(-2.3634106,9574.9281,-591.86042)"
        x="67.262894"
        y="0"><tspan
          x="192.63867"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Valynor</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3732"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3730">Valynor</tspan></tspan></text>
     <path
        style="display:inline;fill:none;stroke:none;stroke-width:0.545966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 204.96036,510.75984 c 0,0 80.10008,28.96145 198.4369,15.84174"
@@ -477,13 +498,15 @@
     <text
        xml:space="preserve"
        id="text1009"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1011);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1011);display:inline"
        transform="translate(686.71852,-336.37484)"
        x="67.262894"
        y="0"><tspan
          x="191.66309"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Faelaen</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3736"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3734">Faelaen</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -504,15 +527,17 @@
     <text
        xml:space="preserve"
        id="text1025"
-       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1027);" />
+       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1027);display:inline" />
     <text
        xml:space="preserve"
        id="text1031"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;letter-spacing:6px;white-space:pre;shape-inside:url(#rect1033);"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;letter-spacing:6px;white-space:pre;shape-inside:url(#rect1033);display:inline"
        transform="rotate(90,-55.609384,403.02937)"><tspan
          x="2.0957031"
-         y="326.79609"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';letter-spacing:9.6px;fill:#b67c00;fill-opacity:1">The  Tusk</tspan></tspan></text>
+         y="327.54488"
+         id="tspan3740"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';letter-spacing:9.6px;fill:#b67c00"
+           id="tspan3738">The  Tusk</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1037"
@@ -522,17 +547,21 @@
     <text
        xml:space="preserve"
        id="text1041"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1043);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1043);display:inline"
        transform="translate(366.47152,-477.33446)"
        x="67.262894"
        y="0"><tspan
          x="242.63672"
-         y="943.92477"><tspan
-           style="font-size:27.2px;text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">
+         y="944.38765"
+         id="tspan3744"><tspan
+           style="text-anchor:middle;fill:#b67c00"
+           id="tspan3742">
 </tspan></tspan><tspan
          x="209.06201"
-         y="985.09499"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Teth</tspan></tspan></text>
+         y="985.09499"
+         id="tspan3748"><tspan
+           style="font-style:italic;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3746">Teth</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -553,17 +582,21 @@
     <text
        xml:space="preserve"
        id="text1049"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1051);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1051);display:inline"
        transform="translate(454.40299,-603.25849)"
        x="67.262894"
        y="0"><tspan
          x="242.99219"
-         y="943.92477"><tspan
-           style="font-size:27.2px;text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">
+         y="944.38765"
+         id="tspan3752"><tspan
+           style="text-anchor:middle;fill:#b67c00"
+           id="tspan3750">
 </tspan></tspan><tspan
          x="193.43262"
-         y="985.09499"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Di'loth</tspan></tspan></text>
+         y="985.09499"
+         id="tspan3756"><tspan
+           style="font-style:italic;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3754">Di'loth</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -584,13 +617,15 @@
     <text
        xml:space="preserve"
        id="text1057"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1059);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1059);display:inline"
        transform="translate(688.40275,-590.16589)"
        x="67.262894"
        y="0"><tspan
          x="184.75146"
-         y="953.59414"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Westfall</tspan></tspan></text>
+         y="954.24082"
+         id="tspan3760"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3758">Westfall</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1063"
@@ -600,13 +635,15 @@
     <text
        xml:space="preserve"
        id="text1067"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1069);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1069);display:inline"
        transform="translate(972.42699,-807.61994)"
        x="67.262894"
        y="0"><tspan
          x="202.24512"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Annis</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3764"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3762">Annis</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1071"
@@ -616,13 +653,15 @@
     <text
        xml:space="preserve"
        id="text1075"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1077);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1077);display:inline"
        transform="translate(825.09213,-457.45078)"
        x="67.262894"
        y="0"><tspan
          x="208.90723"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Lyka</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3768"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3766">Lyka</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1079"
@@ -632,13 +671,15 @@
     <text
        xml:space="preserve"
        id="text1083"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1085);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1085);display:inline"
        transform="translate(798.40717,-271.93353)"
        x="67.262894"
        y="0"><tspan
          x="208.34473"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Bahz</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3772"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3770">Bahz</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -665,13 +706,15 @@
     <text
        xml:space="preserve"
        id="text1097"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1099);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1099);display:inline"
        transform="translate(380.24815,-753.54034)"
        x="67.262894"
        y="0"><tspan
          x="203.30859"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Maul</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3776"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3774">Maul</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -692,13 +735,15 @@
     <text
        xml:space="preserve"
        id="text1105"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1107);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1107);display:inline"
        transform="translate(236.98488,-828.19312)"
        x="67.262894"
        y="0"><tspan
          x="225.65918"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Fo</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3780"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3778">Fo</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1109"
@@ -708,13 +753,15 @@
     <text
        xml:space="preserve"
        id="text1113"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1115);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1115);display:inline"
        transform="translate(95.939724,-696.47992)"
        x="67.262894"
        y="0"><tspan
          x="191.46094"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Belfrost</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3784"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3782">Belfrost</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -735,13 +782,15 @@
     <text
        xml:space="preserve"
        id="text1121"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1123);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1123);display:inline"
        transform="translate(-155.76666,-741.54)"
        x="67.262894"
        y="0"><tspan
          x="211.55273"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Trig</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3788"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3786">Trig</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1125"
@@ -751,13 +800,15 @@
     <text
        xml:space="preserve"
        id="text1129"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1131);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1131);display:inline"
        transform="translate(1064.8898,158.45507)"
        x="67.262894"
        y="0"><tspan
          x="209.84766"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Fane</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3792"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3790">Fane</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text1135"
@@ -783,15 +834,15 @@
     <text
        xml:space="preserve"
        id="text1165"
-       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1167);" />
+       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1167);display:inline" />
     <text
        xml:space="preserve"
        id="text1171"
-       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1173);" />
+       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1173);display:inline" />
     <text
        xml:space="preserve"
        id="text1177"
-       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1179);" />
+       style="font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect1179);display:inline" />
     <path
        style="fill:none;stroke:none;stroke-width:0.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 758.93352,1303.1894 c 0,0 338.38798,79.4871 595.01788,0"
@@ -819,12 +870,14 @@
     <text
        xml:space="preserve"
        id="text195"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect197);display:inline;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:Metamorphous;-inkscape-font-specification:Metamorphous;text-align:center;letter-spacing:0px;white-space:pre;shape-inside:url(#rect197);display:inline"
        transform="translate(950.42613,-702.58338)"
        x="67.262894"
        y="0"><tspan
          x="191.23242"
-         y="951.80352"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-align:center;text-anchor:middle;fill:#b67c00;fill-opacity:1">Alldark</tspan></tspan></text>
+         y="952.41616"
+         id="tspan3796"><tspan
+           style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
+           id="tspan3794">Alldark</tspan></tspan></text>
   </g>
 </svg>
