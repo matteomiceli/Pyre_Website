@@ -11,9 +11,19 @@
       href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Metamorphous&family=Overlock&display=swap"
       rel="stylesheet"
     />
-
     <title>Welcome to Shanai</title>
     <link rel="stylesheet" href="../style.css" />
+    <!-- Leaflet --> 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
   </head>
 
   <body>
@@ -29,264 +39,262 @@
       </div>
     </header>
 
-    <main class="wrapper-home shanai-grid">
-      <!-- Map element -->
-      <div class="shanai-map-container">
-        <div class="img-container">
-          <img
-            src="../images/shanai/shanai.png"
-            class="shanai-map"
-            usemap="#image-map"
-          />
+    <main>
+      <div class="wrapper-home shanai-grid">
+        <!-- Map element -->
+        <div class="shanai-map-container">
+          <div id="shanai-map" class="shanai-map"></div>
+          <div class="img-container">
 
-          <map name="image-map">
-            <area
-              target=""
-              alt="lyreth"
-              id="lyreth"
-              title="lyreth"
-              coords="1139,983,887,745"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="graev"
-              id="graev"
-              title="graev"
-              coords="594,1090,859,1327"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="silk-port"
-              id="silk-port"
-              title="silk-port"
-              coords="1404,792,1828,997"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="umberfhel"
-              id="umberfhel"
-              title="umberfhel"
-              coords="2922,28,3351,224"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="winter-sea"
-              id="winter-sea"
-              title="winter-sea"
-              coords="1968,489,2881,680"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="endless-sea"
-              id="endless-sea"
-              title="endless-sea"
-              coords="54,1537,221,2469"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="zerqan"
-              id="zerqan"
-              title="zerqan"
-              coords="1348,1509,1614,1719"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="qyiax"
-              id="qyiax"
-              title="qyiax"
-              coords="1642,1532,1870,1770"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="shai-yn"
-              id="shai-yn"
-              title="shai-yn"
-              coords="985,2063,1297,2292"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="tubul"
-              id="tubul"
-              title="tubul"
-              coords="789,2348,1013,2543"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="yllan"
-              id="yllan"
-              title="yllan"
-              coords="976,2571,1264,2692"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="usol"
-              id="usol"
-              title="usol"
-              coords="943,2958,1153,3153"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="soule"
-              id="soule"
-              title="soule"
-              coords="1176,3014,1386,3209"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="kwaixl"
-              id="kwaixl"
-              title="kwaixl"
-              coords="1665,2338,2065,2525"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="suntouched-sea"
-              id="suntouched-sea"
-              title="suntouched-sea"
-              coords="1544,3358,2648,3535"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="veithaar"
-              id="veithaar"
-              title="veithaar"
-              coords="2336,2366,2708,2520"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="ithaar"
-              id="ithaar"
-              coords="2610,2017,2936,2171"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="kepe"
-              title="kepe"
-              id="kepe"
-              coords="3165,2888,3365,3097"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="silent-sea"
-              title="silent-sea"
-              id="silent-sea"
-              coords="3202,2087,4031,2296"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="sleet"
-              title="sleet"
-              id="sleet"
-              coords="3649,3149,3859,3335"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="tenzu"
-              title="tenzu"
-              id="tenzu"
-              coords="4049,3247,4371,3428"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="port-tivar"
-              title="port-tivar"
-              id="port-tivar"
-              coords="4455,2525,4920,2678"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="yoros"
-              title="yoros"
-              id="yoros"
-              coords="4613,1933,4874,2119"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="sedhar"
-              title="sedhar"
-              id="sedhar"
-              coords="2764,1341,3048,1621"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="hadria"
-              id="hadria"
-              title="hadria"
-              coords="4017,1458,4315,1626"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="mercaia"
-              id="mercaia"
-              title="mercaia"
-              coords="3751,1290,4082,1458"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="seleria"
-              id="seleria"
-              title="seleria"
-              coords="4175,880,4455,1109"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="darun"
-              id="darun"
-              title="darun"
-              coords="4590,1318,4869,1500"
-              shape="rect"
-            />
-            <area
-              target=""
-              alt="efretes"
-              id="efretes"
-              title="efretes"
-              coords="5018,1644,5218,2408"
-              shape="rect"
-            />
-          </map>
+            <map name="image-map">
+              <area
+                target=""
+                alt="lyreth"
+                id="lyreth"
+                title="lyreth"
+                coords="1139,983,887,745"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="graev"
+                id="graev"
+                title="graev"
+                coords="594,1090,859,1327"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="silk-port"
+                id="silk-port"
+                title="silk-port"
+                coords="1404,792,1828,997"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="umberfhel"
+                id="umberfhel"
+                title="umberfhel"
+                coords="2922,28,3351,224"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="winter-sea"
+                id="winter-sea"
+                title="winter-sea"
+                coords="1968,489,2881,680"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="endless-sea"
+                id="endless-sea"
+                title="endless-sea"
+                coords="54,1537,221,2469"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="zerqan"
+                id="zerqan"
+                title="zerqan"
+                coords="1348,1509,1614,1719"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="qyiax"
+                id="qyiax"
+                title="qyiax"
+                coords="1642,1532,1870,1770"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="shai-yn"
+                id="shai-yn"
+                title="shai-yn"
+                coords="985,2063,1297,2292"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="tubul"
+                id="tubul"
+                title="tubul"
+                coords="789,2348,1013,2543"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="yllan"
+                id="yllan"
+                title="yllan"
+                coords="976,2571,1264,2692"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="usol"
+                id="usol"
+                title="usol"
+                coords="943,2958,1153,3153"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="soule"
+                id="soule"
+                title="soule"
+                coords="1176,3014,1386,3209"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="kwaixl"
+                id="kwaixl"
+                title="kwaixl"
+                coords="1665,2338,2065,2525"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="suntouched-sea"
+                id="suntouched-sea"
+                title="suntouched-sea"
+                coords="1544,3358,2648,3535"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="veithaar"
+                id="veithaar"
+                title="veithaar"
+                coords="2336,2366,2708,2520"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="ithaar"
+                id="ithaar"
+                coords="2610,2017,2936,2171"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="kepe"
+                title="kepe"
+                id="kepe"
+                coords="3165,2888,3365,3097"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="silent-sea"
+                title="silent-sea"
+                id="silent-sea"
+                coords="3202,2087,4031,2296"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="sleet"
+                title="sleet"
+                id="sleet"
+                coords="3649,3149,3859,3335"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="tenzu"
+                title="tenzu"
+                id="tenzu"
+                coords="4049,3247,4371,3428"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="port-tivar"
+                title="port-tivar"
+                id="port-tivar"
+                coords="4455,2525,4920,2678"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="yoros"
+                title="yoros"
+                id="yoros"
+                coords="4613,1933,4874,2119"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="sedhar"
+                title="sedhar"
+                id="sedhar"
+                coords="2764,1341,3048,1621"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="hadria"
+                id="hadria"
+                title="hadria"
+                coords="4017,1458,4315,1626"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="mercaia"
+                id="mercaia"
+                title="mercaia"
+                coords="3751,1290,4082,1458"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="seleria"
+                id="seleria"
+                title="seleria"
+                coords="4175,880,4455,1109"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="darun"
+                id="darun"
+                title="darun"
+                coords="4590,1318,4869,1500"
+                shape="rect"
+              />
+              <area
+                target=""
+                alt="efretes"
+                id="efretes"
+                title="efretes"
+                coords="5018,1644,5218,2408"
+                shape="rect"
+              />
+            </map>
+          </div>
+
+          <!-- Zoom and minimize -->
+          <!-- <div class="zoom-container">
+          <h4 class="zoom-in">+</h4>
+          <h4 class="zoom-out">–</h4>
+        </div> -->
         </div>
-
-        <!-- Zoom and minimize -->
-        <!-- <div class="zoom-container">
-        <h4 class="zoom-in">+</h4>
-        <h4 class="zoom-out">–</h4>
-      </div> -->
-      </div>
-      <!-- Side Panel -->
-      <div class="sidebar-container">
-        <h4 class="close-btn">✕</h4>
-        <div class="sidebar-content">
-          <p class="placeholder">
-            <em>Click a place on the map to begin exploring Pyre!</em>
-          </p>
+        <!-- Side Panel -->
+        <div class="sidebar-container">
+          <h4 class="close-btn">✕</h4>
+          <div class="sidebar-content">
+            <p class="placeholder">
+              <em>Click a place on the map to begin exploring Shanai!</em>
+            </p>
+          </div>
         </div>
       </div>
     </main>
