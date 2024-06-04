@@ -4,8 +4,6 @@ const closeBtn = document.querySelector(".close-btn");
 const sidebar = document.querySelector("sidebar-container");
 const sidebarContent = document.querySelector(".sidebar-content");
 
-// Object containing all the place info
-
 const placesInfo = {
   ithaar: {
     place: "Ithaar",
@@ -170,12 +168,23 @@ closeBtn.addEventListener("click", () => {
   clear();
   const placeholder = document.createElement("p");
   placeholder.innerHTML =
-    "<em>Click a place on the map to begin exploring Pyre!</em>";
+    "<em>Click a place on the map to begin exploring Shanai!</em>";
   placeholder.classList.add("placeholder");
   sidebarContent.appendChild(placeholder);
 });
 
-// For popup/modal
-// const popupActive = () => {
-//     popup.classList.add('overlay-active');
-// }
+// leaflet
+const MAP_HEIGHT = 3880
+const MAP_WIDTH = 5272
+
+var map = L.map('shanai-map', {
+  crs: L.CRS.Simple,
+  minZoom: -5,
+  zoomSnap: 0.2,
+  attributionControl: false
+})
+
+var bounds = [[0, 0], [MAP_HEIGHT, MAP_WIDTH]]
+var image = L.imageOverlay('../images/shanai/shanai.png', bounds).addTo(map)
+map.fitBounds(bounds)
+image.getElement().style.border = '4px double white';
