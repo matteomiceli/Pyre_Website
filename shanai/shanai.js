@@ -9,6 +9,7 @@ const placesInfo = {
     place: "Ithaar",
     leader: "The Faceless Council",
     description: `In the centre of the known world floats the small island country of Ithaar, the jewel of Shanai. The Ithaari were early masters of navigational science and seacraft, gaining naval dominance, joining the known world  together with trade. Though its land does not yield an abundance of resources, nor its population a vast army, Ithaar is undoubtedly the wealthiest country in Shanai through trade and a careful control of the seas. For a thousand years, Ithaar has been ruled by an order known as the faceless council. The council meets in secret, their identities unknown and members are appointed only after the death of a sitting member.`,
+    coords: "2610,2017,2936,2171",
   },
   tenzu: {
     place: "Tenzu",
@@ -132,15 +133,6 @@ const placesInfo = {
   },
 };
 
-for (const [placeKey, placeInfo] of Object.entries(placesInfo)) {
-  // attach event listener
-  const areaMap = document.getElementById(placeKey);
-  areaMap.addEventListener("click", (e) => {
-    clear();
-    getInfo(placeInfo);
-  });
-}
-
 // Click Handler
 function getInfo(info) {
   const Header = document.createElement("h3");
@@ -174,17 +166,40 @@ closeBtn.addEventListener("click", () => {
 });
 
 // leaflet
-const MAP_HEIGHT = 3880
-const MAP_WIDTH = 5272
+const MAP_HEIGHT = 3880;
+const MAP_WIDTH = 5272;
 
-var map = L.map('shanai-map', {
+var map = L.map("shanai-map", {
   crs: L.CRS.Simple,
   minZoom: -5,
-  zoomSnap: 0.2,
-  attributionControl: false
-})
+  zoomSnap: 0.5,
+  attributionControl: false,
+});
 
-var bounds = [[0, 0], [MAP_HEIGHT, MAP_WIDTH]]
-var image = L.imageOverlay('../images/shanai/shanai.png', bounds).addTo(map)
-map.fitBounds(bounds)
-image.getElement().style.border = '4px double white';
+var bounds = [
+  [0, 0],
+  [MAP_HEIGHT, MAP_WIDTH],
+];
+var image = L.imageOverlay("../images/shanai/shanai.png", bounds).addTo(map);
+map.fitBounds(bounds);
+image.getElement().style.border = "4px double white";
+
+for (const [placeKey, placeInfo] of Object.entries(placesInfo)) {
+  // attach event listener
+  // const areaMap = document.getElementById(placeKey);
+  // areaMap.addEventListener("click", () => {
+  //   clear();
+  //   getInfo(placeInfo);
+  // });
+
+  // draw rect from coords
+  if (placeInfo.coords) {
+    const [x1, y1, x2, y2] = placeInfo.coords.split(",");
+    console.log(x1, x2, y1, y2);
+    console.log(map.unproject(L.point(parseInt(x1), parseInt(y1))));
+    L.rectangle([
+      [MAP_HEIGHT - y1, x1],
+      [MAP_HEIGHT - y2, x2],
+    ]).addTo(map);
+  }
+}
