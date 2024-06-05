@@ -10,6 +10,7 @@ const placesInfo = await res.json()
 
 // Click Handler
 function getInfo(info) {
+  clear()
   const Header = document.createElement("h3");
   Header.innerHTML = info.place;
   sidebarContent.appendChild(Header);
@@ -64,6 +65,9 @@ image.getElement().style.boxSizing = "border-box";
 for (const placeInfo of Object.values(placesInfo)) {
   // draw rect from coords
   if (placeInfo.coords) {
-    L.rectangle(placeInfo.coords).addTo(map);
+    L.rectangle(placeInfo.coords, { color: 'transparent' })
+      .on('click', () => getInfo(placeInfo))
+      .on('hover', () => console.log('hover'))
+      .addTo(map)
   }
 }
