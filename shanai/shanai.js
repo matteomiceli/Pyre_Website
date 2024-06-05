@@ -7,7 +7,6 @@ const sidebarContent = document.querySelector(".sidebar-content");
 // load place info from json
 const res = await fetch('./places.json')
 const placesInfo = await res.json()
-console.log(placesInfo)
 
 // Click Handler
 function getInfo(info) {
@@ -62,18 +61,9 @@ image.getElement().style.border = "4px double white";
 image.getElement().style.boxSizing = "border-box";
 
 
-for (const [placeKey, placeInfo] of Object.entries(placesInfo)) {
-  // attach event listener
-  // const areaMap = document.getElementById(placeKey);
-  // areaMap.addEventListener("click", () => {
-  //   clear();
-  //   getInfo(placeInfo);
-  // });
-
+for (const placeInfo of Object.values(placesInfo)) {
   // draw rect from coords
   if (placeInfo.coords) {
-    L.rectangle([
-      placeInfo.coords
-    ]).addTo(map);
+    L.rectangle(placeInfo.coords).addTo(map);
   }
 }
