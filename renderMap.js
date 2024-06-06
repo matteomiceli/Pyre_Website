@@ -46,7 +46,7 @@ closeBtn.addEventListener("click", () => {
 async function renderMap(imgPath, mapHeight, mapWidth) {
   const placesInfo = await loadPlaceInfo()
 
-  var map = L.map("shanai-map", {
+  var map = L.map("map", {
     crs: L.CRS.Simple,
     minZoom: -5,
     zoomSnap: 0.5,
