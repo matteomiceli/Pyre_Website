@@ -2,12 +2,12 @@
 <svg
    version="1.1"
    id="svg885"
-   width="1073.5239"
-   height="897.2204"
-   viewBox="0 0 1610.2858 1345.8306"
+   width="2361.7532"
+   height="1973.8853"
+   viewBox="0 0 1610.2859 1345.8305"
    sodipodi:docname="WorldMapDark_Places.svg"
    inkscape:version="1.2 (dc2aeda, 2022-05-15)"
-   inkscape:export-filename="/home/matteo/Documents/Projects/Pyre Website/images/WorldMapDark_Places_Black(resize).png"
+   inkscape:export-filename="WorldMapDark_Places.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,7 +26,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -235,17 +234,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1720"
-     inkscape:window-height="1412"
+     inkscape:window-width="1440"
+     inkscape:window-height="872"
      id="namedview887"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="336"
-     inkscape:cy="804"
-     inkscape:window-x="1720"
+     inkscape:zoom="0.26539797"
+     inkscape:cx="1247.1836"
+     inkscape:cy="923.14197"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      lock-margins="true"
      scale-x="1.5"
@@ -261,7 +260,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Image 1"
-     style="display:inline;mix-blend-mode:normal"
+     style="display:none;mix-blend-mode:normal"
      transform="translate(-0.2540527,-7.7508096)">
     <rect
        style="fill:#161616;fill-opacity:1;stroke:none;stroke-width:0.619317"
@@ -324,9 +323,9 @@
        transform="translate(-6.160505,-0.42303527)"><tspan
          x="106.23047"
          y="952.41616"
-         id="tspan3700"><tspan
+         id="tspan523"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';fill:#b67c00"
-           id="tspan3698">Karathuhm</tspan></tspan></text>
+           id="tspan521">Karathuhm</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text10-2"
@@ -336,15 +335,15 @@
        y="0"><tspan
          x="186.91797"
          y="949.4359"
-         id="tspan3704"><tspan
+         id="tspan527"><tspan
            style="font-style:italic;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3702">Mystra 
+           id="tspan525">Mystra 
 </tspan></tspan><tspan
          x="180.625"
          y="994.4359"
-         id="tspan3708"><tspan
+         id="tspan531"><tspan
            style="font-style:italic;font-size:36px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3706">Academy</tspan></tspan></text>
+           id="tspan529">Academy</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text870"
@@ -354,9 +353,9 @@
        y="0"><tspan
          x="207.34277"
          y="952.41616"
-         id="tspan3712"><tspan
+         id="tspan535"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3710">Duin</tspan></tspan></text>
+           id="tspan533">Duin</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text876"
@@ -366,9 +365,9 @@
        y="0"><tspan
          x="182.82617"
          y="956.06548"
-         id="tspan3716"><tspan
+         id="tspan539"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3714">Anethyr</tspan></tspan></text>
+           id="tspan537">Anethyr</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -428,9 +427,9 @@
        transform="rotate(-56.506088,28.080605,711.71659)"><tspan
          x="106.23047"
          y="952.41616"
-         id="tspan3720"><tspan
+         id="tspan543"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';fill:#b67c00"
-           id="tspan3718">Baldurkeep</tspan></tspan></text>
+           id="tspan541">Baldurkeep</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text883"
@@ -440,9 +439,9 @@
        y="0"><tspan
          x="188.99316"
          y="953.32849"
-         id="tspan3724"><tspan
+         id="tspan547"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3722">Saltcliff</tspan></tspan></text>
+           id="tspan545">Saltcliff</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -469,9 +468,9 @@
        y="0"><tspan
          x="168.03369"
          y="954.24082"
-         id="tspan3728"><tspan
+         id="tspan551"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3726">Port Amyr</tspan></tspan></text>
+           id="tspan549">Port Amyr</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle897"
@@ -487,9 +486,9 @@
        y="0"><tspan
          x="192.63867"
          y="952.41616"
-         id="tspan3732"><tspan
+         id="tspan555"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3730">Valynor</tspan></tspan></text>
+           id="tspan553">Valynor</tspan></tspan></text>
     <path
        style="display:inline;fill:none;stroke:none;stroke-width:0.545966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 204.96036,510.75984 c 0,0 80.10008,28.96145 198.4369,15.84174"
@@ -504,9 +503,9 @@
        y="0"><tspan
          x="191.66309"
          y="952.41616"
-         id="tspan3736"><tspan
+         id="tspan559"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3734">Faelaen</tspan></tspan></text>
+           id="tspan557">Faelaen</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -535,9 +534,9 @@
        transform="rotate(90,-55.609384,403.02937)"><tspan
          x="2.0957031"
          y="327.54488"
-         id="tspan3740"><tspan
+         id="tspan563"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';letter-spacing:9.6px;fill:#b67c00"
-           id="tspan3738">The  Tusk</tspan></tspan></text>
+           id="tspan561">The  Tusk</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1037"
@@ -553,15 +552,15 @@
        y="0"><tspan
          x="242.63672"
          y="944.38765"
-         id="tspan3744"><tspan
+         id="tspan567"><tspan
            style="text-anchor:middle;fill:#b67c00"
-           id="tspan3742">
+           id="tspan565">
 </tspan></tspan><tspan
          x="209.06201"
          y="985.09499"
-         id="tspan3748"><tspan
+         id="tspan571"><tspan
            style="font-style:italic;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3746">Teth</tspan></tspan></text>
+           id="tspan569">Teth</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -588,15 +587,15 @@
        y="0"><tspan
          x="242.99219"
          y="944.38765"
-         id="tspan3752"><tspan
+         id="tspan575"><tspan
            style="text-anchor:middle;fill:#b67c00"
-           id="tspan3750">
+           id="tspan573">
 </tspan></tspan><tspan
          x="193.43262"
          y="985.09499"
-         id="tspan3756"><tspan
+         id="tspan579"><tspan
            style="font-style:italic;font-size:38px;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3754">Di'loth</tspan></tspan></text>
+           id="tspan577">Di'loth</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -623,9 +622,9 @@
        y="0"><tspan
          x="184.75146"
          y="954.24082"
-         id="tspan3760"><tspan
+         id="tspan583"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3758">Westfall</tspan></tspan></text>
+           id="tspan581">Westfall</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1063"
@@ -641,9 +640,9 @@
        y="0"><tspan
          x="202.24512"
          y="952.41616"
-         id="tspan3764"><tspan
+         id="tspan587"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3762">Annis</tspan></tspan></text>
+           id="tspan585">Annis</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1071"
@@ -659,9 +658,9 @@
        y="0"><tspan
          x="208.90723"
          y="952.41616"
-         id="tspan3768"><tspan
+         id="tspan591"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3766">Lyka</tspan></tspan></text>
+           id="tspan589">Lyka</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1079"
@@ -677,9 +676,9 @@
        y="0"><tspan
          x="208.34473"
          y="952.41616"
-         id="tspan3772"><tspan
+         id="tspan595"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3770">Bahz</tspan></tspan></text>
+           id="tspan593">Bahz</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -712,9 +711,9 @@
        y="0"><tspan
          x="203.30859"
          y="952.41616"
-         id="tspan3776"><tspan
+         id="tspan599"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3774">Maul</tspan></tspan></text>
+           id="tspan597">Maul</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -741,9 +740,9 @@
        y="0"><tspan
          x="225.65918"
          y="952.41616"
-         id="tspan3780"><tspan
+         id="tspan603"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3778">Fo</tspan></tspan></text>
+           id="tspan601">Fo</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1109"
@@ -759,9 +758,9 @@
        y="0"><tspan
          x="191.46094"
          y="952.41616"
-         id="tspan3784"><tspan
+         id="tspan607"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3782">Belfrost</tspan></tspan></text>
+           id="tspan605">Belfrost</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.19404"
@@ -788,9 +787,9 @@
        y="0"><tspan
          x="211.55273"
          y="952.41616"
-         id="tspan3788"><tspan
+         id="tspan611"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3786">Trig</tspan></tspan></text>
+           id="tspan609">Trig</tspan></tspan></text>
     <circle
        style="display:inline;fill:#b67c00;fill-opacity:1;stroke-width:0.188977"
        id="circle1125"
@@ -806,9 +805,9 @@
        y="0"><tspan
          x="209.84766"
          y="952.41616"
-         id="tspan3792"><tspan
+         id="tspan615"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3790">Fane</tspan></tspan></text>
+           id="tspan613">Fane</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text1135"
@@ -876,8 +875,8 @@
        y="0"><tspan
          x="191.23242"
          y="952.41616"
-         id="tspan3796"><tspan
+         id="tspan619"><tspan
            style="font-style:italic;font-family:'IM FELL English';-inkscape-font-specification:'IM FELL English Italic';text-anchor:middle;fill:#b67c00"
-           id="tspan3794">Alldark</tspan></tspan></text>
+           id="tspan617">Alldark</tspan></tspan></text>
   </g>
 </svg>

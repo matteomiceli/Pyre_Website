@@ -14,6 +14,17 @@
 
     <title>Welcome to Pyre</title>
     <link rel="stylesheet" href="../style.css" />
+    <!-- Leaflet --> 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
   </head>
 
   <body>
@@ -31,191 +42,9 @@
 
     <main class="wrapper-home">
       <!-- Map element -->
-      <div class="pyre-map-container">
-        <div class="img-container">
-          <img
-            src="../images/WorldMapDark_Places(resize).png"
-            class="pyre-map"
-            usemap="#image-map"
-          />
-          <map name="image-map">
-            <area
-              target=""
-              id="trig"
-              alt="trig"
-              coords="22,72,97,139"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="belfrost"
-              alt="belfrost"
-              coords="181,111,266,167"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="fo"
-              alt="Fo"
-              coords="297,15,341,78"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="maul"
-              alt="Maul"
-              coords="379,74,449,124"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="annis"
-              alt="annis"
-              coords="772,35,845,91"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="alldark"
-              alt="alldark"
-              coords="743,120,846,164"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="diloth"
-              alt="di'loth"
-              coords="395,205,511,251"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="westfall"
-              alt="westfall"
-              coords="569,199,672,269"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="tusk"
-              alt="tusk"
-              coords="0,268,55,483"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="aro"
-              alt="aro"
-              coords="134,307,331,375"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="teth"
-              alt="teth"
-              coords="369,278,443,332"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="lyka"
-              alt="lyka"
-              coords="667,282,774,326"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="baldurkeep"
-              alt="baldurkeep"
-              coords="214,398,122,472,187,519,251,422,251,422"
-              shape="poly"
-            />
-            <area
-              target=""
-              id="anethyr"
-              alt="anethyr"
-              coords="304,450,416,525"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="faelaen"
-              alt="faelaen"
-              coords="552,366,658,402"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="bahz"
-              alt="bahz"
-              coords="661,411,746,450"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="karathuhm"
-              alt="karathuhm"
-              coords="59,594,172,653"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="mystra"
-              alt="mystra"
-              coords="196,542,287,633"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="duin"
-              alt="duin"
-              coords="273,640,330,689"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="saltcliff"
-              alt="saltcliff"
-              coords="344,672,459,719"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="amyr"
-              alt="portAmyr"
-              coords="476,522,605,593"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="fane"
-              alt="fane"
-              coords="819,696,906,736"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="valynor"
-              alt="valynor"
-              coords="144,841,253,890"
-              shape="rect"
-            />
-            <area
-              target=""
-              id="demlin"
-              alt="demlinSea"
-              coords="804,540,560,745,609,814,847,592"
-              shape="poly"
-            />
-          </map>
+        <div class="shanai-map-container">
+          <div id="shanai-map" class="shanai-map"></div>
         </div>
-
-        <!-- Zoom and minimize -->
-        <!-- <div class="zoom-container">
-        <h4 class="zoom-in">+</h4>
-        <h4 class="zoom-out">–</h4>
-      </div> -->
-      </div>
       <!-- Side Panel -->
       <div class="sidebar-container">
         <h4 class="close-btn">✕</h4>
@@ -226,11 +55,11 @@
         </div>
       </div>
     </main>
-    <script src="pyre.js"></script>
-    <!-- Scaling map library -->
-    <script src="../imageMapResizer.min.js"></script>
+    <script src="../renderMap.js"></script>
     <script>
-      imageMapResize();
+      const MAP_HEIGHT = 1974
+      const MAP_WIDTH = 2362
+      renderMap('../images/WorldMapDark_Places.png', MAP_HEIGHT, MAP_WIDTH)
     </script>
   </body>
 </html>

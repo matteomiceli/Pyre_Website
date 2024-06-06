@@ -4,9 +4,10 @@ const closeBtn = document.querySelector(".close-btn");
 const sidebar = document.querySelector("sidebar-container");
 const sidebarContent = document.querySelector(".sidebar-content");
 
-// load place info from json
-const res = await fetch('./places.json')
-const placesInfo = await res.json()
+async function loadPlaceInfo() {
+  const res = await fetch('./places.json')
+  return res.json()
+}
 
 // Click Handler
 function getInfo(info) {
@@ -42,32 +43,35 @@ closeBtn.addEventListener("click", () => {
 });
 
 // leaflet
-const MAP_HEIGHT = 3880;
-const MAP_WIDTH = 5272;
+async function renderMap(imgPath, mapHeight, mapWidth) {
+  const placesInfo = await loadPlaceInfo()
 
-var map = L.map("shanai-map", {
-  crs: L.CRS.Simple,
-  minZoom: -5,
-  zoomSnap: 0.5,
-  attributionControl: false,
-});
+  var map = L.map("shanai-map", {
+    crs: L.CRS.Simple,
+    minZoom: -5,
+    zoomSnap: 0.5,
+    attributionControl: false,
+  });
 
-var bounds = [
-  [0, 0],
-  [MAP_HEIGHT, MAP_WIDTH],
-];
-var image = L.imageOverlay("../images/shanai/shanai.png", bounds).addTo(map);
-map.fitBounds(bounds);
-image.getElement().style.border = "4px double white";
-image.getElement().style.boxSizing = "border-box";
+  var bounds = [
+    [0, 0],
+    [mapHeight, mapWidth],
+  ];
+  var image = L.imageOverlay(imgPath, bounds).addTo(map);
+  map.fitBounds(bounds);
+  image.getElement().style.border = "4px double white";
+  image.getElement().style.boxSizing = "border-box";
 
 
-for (const placeInfo of Object.values(placesInfo)) {
-  // draw rect from coords
-  if (placeInfo.coords) {
-    L.rectangle(placeInfo.coords, { color: 'transparent' })
-      .on('click', () => getInfo(placeInfo))
-      .on('hover', () => console.log('hover'))
-      .addTo(map)
+  for (const placeInfo of Object.values(placesInfo)) {
+    // draw rect from coords
+    if (placeInfo.coords) {
+      L.rectangle(placeInfo.coords, { color: 'transparent' })
+        .on('click', () => getInfo(placeInfo))
+        .on('hover', () => console.log('hover'))
+        .addTo(map)
+    }
   }
+
 }
+
