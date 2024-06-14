@@ -222,5 +222,14 @@
       [2236, 5018],
       [1472, 5218]
     ]
+  },
+  "faros": {
+    "place": "Faros",
+    "leader": "Lord Nesu Mari, First Acolyte",
+    "description": "Long ago, before the counting of time, Faros was little more than a poor fishing village. But its fate changed forever when a loose collection of tribal warriors, caught in a peacetime lull, formed a guild for hire. For a pittance of coin they protected livestock against dire wolves, escorted travellers through bandit territory, and found lost treasures. As the guild grew, so too did Faros. Today, the Freelancer's Guild is arguably the most powerful institution in Shanai and the city is a testament to that influence. Faros is a wealthy metropolis with the guild as its beating heart. Most who live in the city serve the guild, whether as members or as acolytes. The city's most profitable export are the heroes and explorers who venture out of her gates on missions across the four seas. But Faros also holds many secrets, as the guild often operates in the shadows. Inside the massive Guild headquarters, known as the Fortress of Brikhar, the secret of jump runes and teleportation magic are well guarded, while acolytes dream up new and wild magical creations.",
+    "coords": [
+      [1000, 4150],
+      [800, 4400]
+    ]
   }
 }
