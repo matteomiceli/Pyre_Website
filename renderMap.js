@@ -48,7 +48,8 @@ async function renderMap(imgPath, mapHeight, mapWidth) {
 
   var map = L.map("map", {
     crs: L.CRS.Simple,
-    minZoom: -5,
+    minZoom: -4,
+    maxZoom: 0,
     zoomSnap: 0.5,
     attributionControl: false,
   });
