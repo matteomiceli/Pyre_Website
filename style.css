@@ -3,21 +3,25 @@ body {
   background-color: #161616;
   color: white;
   height: 100vh;
+  font-family: "Overlock", sans-serif;
+  font-size: 1.2em;
 }
 
 main {
-  height:100%;
-}
-
-h2 {
-  font-family: "IM Fell English", serif;
-  font-style: italic;
-  font-size: 2rem;
+  height: calc(100% - 64px);
 }
 
 /* Landing */
+#choose-world {
+  font-family: "IM Fell English", serif;
+  font-style: italic;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
 #select-world-container {
-  margin: 64px 32px;
+  box-sizing: border-box;
+  padding: 64px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +36,7 @@ h2 {
 }
 
 .map-select-container {
+  height: unset;
   position: relative;
   opacity: 75%;
   border: 4px white double;
@@ -45,7 +50,8 @@ h2 {
   cursor: pointer;
 }
 .map-select-container img {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
@@ -74,58 +80,46 @@ h2 {
 }
 
 header {
+  padding: 0 24px;
   display: flex;
   background-color: #161b16;
   background-image: url("./images/WorldMapDark_Empty_opacity10.png");
   background-repeat: no-repeat;
-  background-size: 175rem;
+  background-size: 112rem;
   background-position: center;
-  height: 150px;
+  height: 48px;
+  box-sizing: border-box; 
   border-bottom: 2px solid #6a706a;
   align-items: center;
 }
-
-.header-content {
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  width: 1180px;
-  align-items: center;
-  justify-content: center;
+header * {
+  margin-right: 12px;
 }
-
-.title {
-  margin: 0;
-  font-family: "IM Fell English", serif;
-  font-size: 80px;
-  font-style: italic;
-  font-weight: lighter;
-}
-
-.nav-menu {
-  display: flex;
-  padding: 0;
+header:last-child {
+  margin-right: 0;
 }
 
 .nav-item {
-  list-style: none;
-  font-family: "Metamorphous", cursive;
-  margin: 0 70px;
-  padding: 10px 0 0 0;
-  font-size: 18px;
-  border-bottom: 4px solid transparent;
+  color: #b67c00; 
 }
 
-.nav-item:hover {
-  list-style: none;
-  font-family: "Metamorphous", cursive;
-  margin: 0 70px;
-  font-size: 18px;
+#back-btn {
   cursor: pointer;
-  border-bottom: 4px solid #b67c00;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Overlock", sans-serif;
+  transition: 100ms ease-in-out all;
+}
+#back-btn:hover {
+  color: #b67c00;
 }
 
-h1 a {
+#title{
+  font-family: "IM Fell English", serif;
+  font-size: 2rem;
+  font-style: italic;
   text-decoration: none;
   color: white;
 }
@@ -147,23 +141,6 @@ h4 {
   color: white;
   font-size: 1.1em;
   margin-top: 12px;
-}
-
-p {
-  font-family: "Overlock", sans-serif;
-  font-size: 1.2em;
-}
-
-footer {
-  display: flex;
-  background-color: #161b16;
-  background-image: url("./images/WorldMapDark_Empty_opacity10.png");
-  background-repeat: no-repeat;
-  background-size: 150rem;
-  background-position: right;
-  height: 100px;
-  border-top: 2px solid #6a706a;
-  align-items: center;
 }
 
 .map-container {
@@ -234,11 +211,6 @@ footer {
     padding: 60px 15px 0 15px;
   }
 
-  header {
-    height: 120px;
-    background-size: 125rem;
-  }
-
   footer {
     height: 75px;
     background-size: 125rem;
@@ -250,15 +222,6 @@ footer {
     flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
-  }
-
-  header {
-    height: 100px;
-    background-size: 115rem;
-  }
-
-  .title {
-    font-size: 65px;
   }
 
   footer {
@@ -284,15 +247,6 @@ footer {
 @media only screen and (max-width: 550px) {
   .sidebar-container {
     padding: 15px 15px 45px 15px;
-  }
-
-  header {
-    height: 80px;
-    background-size: 70rem;
-  }
-
-  .title {
-    font-size: 45px;
   }
 
   .nav-item {

@@ -29,29 +29,24 @@
 
   <body>
     <header>
-      <div class="header-content">
-        <ul class="nav-menu">
-          <li class="nav-item"><a href="history.html">History</a></li>
-        </ul>
-        <h1 class="title"><a href="index.html">P<u>yr</u>e</a></h1>
-        <ul class="nav-menu">
-          <li class="nav-item">Explore</li>
-        </ul>
-      </div>
+      <input class="nav-item" id="back-btn" value="< back"  type="submit" onclick="history.back()" /> 
+      <span id="title">Pyre</span>
     </header>
 
-    <main class="wrapper-home">
-      <!-- Map element -->
-        <div class="container">
-          <div id="map"></div>
-        </div>
-      <!-- Side Panel -->
-      <div class="sidebar-container">
-        <h4 class="close-btn">✕</h4>
-        <div class="sidebar-content">
-          <p class="placeholder">
-            <em>Click a place on the map to begin exploring Pyre!</em>
-          </p>
+    <main>
+      <div class="wrapper-home"> 
+        <!-- Map element -->
+          <div class="container">
+            <div id="map"></div>
+          </div>
+        <!-- Side Panel -->
+        <div class="sidebar-container">
+          <h4 class="close-btn">✕</h4>
+          <div class="sidebar-content">
+            <p class="placeholder">
+              <em>Click a place on the map to begin exploring Pyre!</em>
+            </p>
+          </div>
         </div>
       </div>
     </main>
