@@ -1,7 +1,8 @@
 // PAGE ELEMENTS
 const popup = document.querySelector(".popup-overlay");
 const closeBtn = document.querySelector(".close-btn");
-const sidebar = document.querySelector("sidebar-container");
+const gridWrapper = document.getElementById("grid-wrapper")
+const sidebarContainer = document.querySelector(".sidebar-container");
 const sidebarContent = document.querySelector(".sidebar-content");
 
 async function loadPlaceInfo() {
@@ -27,20 +28,44 @@ function getInfo(info) {
   sidebarContent.appendChild(Content);
 }
 
-// Clears sidebar
+// Info sidepanel
+let isSidepanelClosed = true;
+
 function clear() {
   sidebarContent.innerHTML = "";
 }
 
-// Event listeners
 closeBtn.addEventListener("click", () => {
-  clear();
-  const placeholder = document.createElement("p");
-  placeholder.innerHTML =
-    "<em>Click a place on the map to begin exploring Shanai!</em>";
-  placeholder.classList.add("placeholder");
-  sidebarContent.appendChild(placeholder);
+  if (isSidepanelClosed) {
+    sidepanel("open")
+  } else {
+    sidepanel("close")
+  }
 });
+
+function sidepanel(action) {
+  if (action === "open") {
+    if (!isSidepanelClosed) {
+      return
+    }
+    closeBtn.textContent = ">"
+    closeBtn.style.transform = "translateX(-48px)"
+    gridWrapper.style.gridTemplateColumns = "1fr 350px"
+    sidebarContainer.style.padding = "48px 24px"
+    isSidepanelClosed = false
+  }
+  else if (action === "close") {
+    if (isSidepanelClosed) {
+      return
+    }
+    closeBtn.textContent = "<"
+    closeBtn.style.transform = "translateX(-24px)"
+    gridWrapper.style.gridTemplateColumns = "1fr 0px"
+    sidebarContainer.style.padding = "48px 0"
+    isSidepanelClosed = true
+  }
+  return
+}
 
 // leaflet
 async function renderMap(imgPath, mapHeight, mapWidth) {

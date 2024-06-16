@@ -8,7 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Metamorphous&family=Overlock&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Overlock&display=swap"
       rel="stylesheet"
     />
     <title>Welcome to Shanai</title>
@@ -28,19 +28,19 @@
 
   <body>
     <header>
-      <input id="back-btn" value="< back"  type="submit" onclick="history.back()" /> 
+      <input class="nav-item" id="back-btn" value="< back"  type="submit" onclick="history.back()" /> 
       <span id="title">Shanai</span>
     </header>
 
     <main>
-      <div class="wrapper-home">
+      <div id="grid-wrapper">
         <!-- Map element -->
         <div class="map-container">
           <div id="map"></div>
         </div>
         <!-- Side Panel -->
         <div class="sidebar-container">
-          <h4 class="close-btn">✕</h4>
+          <h4 class="close-btn"><</h4>
           <div class="sidebar-content">
             <p class="placeholder">
               <em>Click a place on the map to begin exploring Shanai!</em>

@@ -71,10 +71,10 @@ main {
 }
 
 /* end landing */
-#grid-wrapper{
+.grid-wrapper{
   height:100%;
   display: grid;
-  grid-template-columns: 1fr 0px;
+  grid-template-columns: 1fr 400px;
   justify-content: center;
 }
 
@@ -155,28 +155,25 @@ h4 {
 /* Sidebar */
 .sidebar-container {
   background-color: #f2ecda;
-  padding: 48px 0;
+  padding: 48px 24px;
   color: #222222;
   overflow-y: auto;
-  z-index: 999;
+  z-index: 10;
   font-size: 1.1rem;
 }
 
 .close-btn {
-  position: absolute;
-  transform: translateX(-24px);
   font-family: sans-serif;
-  color: #6a6c6a;
+  color: rgb(160, 160, 160);
   cursor: pointer;
   margin: 0;
-  width: 12px;
-  padding: 16px 6px;
+  width: 24px;
+  padding: 8px;
   border-radius: 8px 0 0 8px;
   background-color: #b5b0a1;
-  font-size: 1rem;
-  text-align: right;
 }
 .close-btn:hover {
+  font-family: sans-serif;
   text-align: right;
   color: black;
   cursor: pointer;
@@ -188,7 +185,7 @@ h4 {
 }
 
 @media only screen and (max-width: 900px) {
-  #grid-wrapper {
+  .grid-wrapper {
     flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
