@@ -13,6 +13,7 @@ async function loadPlaceInfo() {
 // Click Handler
 function getInfo(info) {
   clear()
+  sidepanel("open")
   const Header = document.createElement("h3");
   Header.innerHTML = info.place;
   sidebarContent.appendChild(Header);
